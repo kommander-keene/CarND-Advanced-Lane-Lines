@@ -9,7 +9,7 @@
 [image4]: ./imgs/warped.png "WARPED LINES"
 [image5]: ./imgs/lane_line.png "LANE LINES"
 [image6]: ./examples/example_output.jpg "Output"
-[video1]: ./project_video.mp4 "Video"
+[video1]: ./output.mp4 "Video"
 
 
 ### Writeup / README
@@ -54,6 +54,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 ### Pipeline (video)
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
+    The video wobbles a little bit when it encounters shadows, but other than that, the car seems to stay on the road.
 ![video1]
 ### Discussion
 
