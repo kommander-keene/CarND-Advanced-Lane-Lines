@@ -47,7 +47,10 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
     
     Afterwards, I used this information to calculate the margins.
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
-    At measure curvature, I calculated the radius of curvature in radians; however, this calculation wasnt used in the project at all.
+    I calculated the curvature by using for formula provided in the lessons.
+    
+    I calculated the vehicles position with respect to the center by subtracting the two points that were lowest in the polynomial.  To get the center position, then I simply subtracted the earlier value with the center of the image.
+    
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
     No color, but yeah
 ![image6]
